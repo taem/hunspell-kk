@@ -1,0 +1,5 @@
+hunspell-kk (1.1-1) unstable; urgency=low
+
+  * Initial release. Closes: #594044 (ITP).
+
+ -- Timur Birsh <taem@linukz.org>  Sun, 22 Aug 2010 17:19:57 +0600

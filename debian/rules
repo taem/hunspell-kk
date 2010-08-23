@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+build:
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean 
+
+install:
+	dh_testdir
+	dh_testroot
+	dh_prep  
+	installdeb-myspell --srcdir=. --o2compat
+
+binary-indep: install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary-arch: install
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

@@ -1,0 +1,20 @@
+Source: hunspell-kk
+Section: text
+Priority: optional
+Maintainer: Timur Birsh <taem@linukz.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.0)
+Standards-Version: 3.9.1
+Homepage: http://extensions.services.openoffice.org/en/project/dict-kk
+Vcs-Git: git://devel.kz/spell-kk/hunspell-kk.git
+Vcs-Browser: http://devel.kz/spell-kk/hunspell-kk/trees/master
+
+Package: hunspell-kk
+Architecture: all
+Depends: dictionaries-common (>= 1.0), ${misc:Depends}
+Provides: hunspell-dictionary, hunspell-dictionary-kk, myspell-dictionary, myspell-dictionary-kk
+Suggests: iceape-browser | iceweasel | icedove, openoffice.org (>= 1.0.3-3)
+Conflicts: openoffice.org (<= 1.0.3-2)
+Description: Kazakh dictionary for hunspell
+ This dictionary contains Kazakh wordlist for the hunspell
+ spellchecker currently supported by Mozilla and OpenOffice.
