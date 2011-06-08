@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Timur Birsh <taem@linukz.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://extensions.services.openoffice.org/en/project/dict-kk
 Vcs-Git: git://github.com/taem/hunspell-kk.git
 Vcs-Browser: http://github.com/taem/hunspell-kk/tree/master
