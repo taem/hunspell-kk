@@ -1,3 +1,15 @@
+hunspell-kk (1.1-2) unstable; urgency=low
+
+  * debian/control:
+    - bump build and binary dependencies to 1.10.5 (Closes: #629070).
+    - update Vcs-* fields, package source moved to github.com.
+    - bump standards version to 3.9.2 (no changes needed).
+  * debian/rules: use debhelper's override mechanism.
+  * debian/copyright: update to latest DEP5 spec.
+  * Remove empty maintainer scripts.
+
+ -- Timur Birsh <taem@linukz.org>  Wed, 08 Jun 2011 10:47:33 +0600
+
 hunspell-kk (1.1-1) unstable; urgency=low
 
   * Initial release. Closes: #594044 (ITP).
