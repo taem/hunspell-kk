@@ -1,1 +1,5 @@
 *~
+debian/files
+debian/hunspell-kk.debhelper.log
+debian/hunspell-kk.substvars
+debian/hunspell-kk/
