@@ -3,7 +3,7 @@ Section: text
 Priority: optional
 Maintainer: Timur Birsh <taem@linukz.org>
 Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.12.11)
 Standards-Version: 3.9.2
 Homepage: http://extensions.services.openoffice.org/en/project/dict-kk
 Vcs-Git: git://github.com/taem/hunspell-kk.git
@@ -11,7 +11,7 @@ Vcs-Browser: http://github.com/taem/hunspell-kk/tree/master
 
 Package: hunspell-kk
 Architecture: all
-Depends: dictionaries-common (>= 1.10.5), ${misc:Depends}
+Depends: dictionaries-common (>= 1.12.11), ${misc:Depends}
 Provides: hunspell-dictionary, hunspell-dictionary-kk, myspell-dictionary, myspell-dictionary-kk
 Suggests: iceape-browser | iceweasel | icedove, openoffice.org (>= 1.0.3-3)
 Conflicts: openoffice.org (<= 1.0.3-2)
