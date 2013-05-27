@@ -1,9 +1,10 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Kazakh dictionary for hunspell
 Upstream-Contact: Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
 Source: http://extensions.services.openoffice.org/en/project/dict-kk
 
-Copyright: 2009, Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
+Copyright: 2005, Alexey Lipchansky <could@gnu.kz>
+           2009, Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
 	   2009, László Németh <nemeth@openoffice.org>
 	   2009, Rail Aliev <rail@openoffice.org>
 License: GPL-2+ or LGPL-2.1+ or MPL-1.1+
@@ -12,7 +13,7 @@ Files: debian/*
 Copyright: 2010, Timur Birsh <taem@linukz.org>
 License: GPL-2+
 
-License: GPL-2
+License: GPL-2+
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
@@ -31,7 +32,7 @@ License: GPL-2
     License version 2 can be found in the file
     `/usr/share/common-licenses/GPL-2'.
 
-License: LGPL-2.1
+License: LGPL-2.1+
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
     License as published by the Free Software Foundation; either
@@ -50,7 +51,7 @@ License: LGPL-2.1
     License version 2.1 can be found in the file
     `/usr/share/common-licenses/LGPL-2.1'.
 
-License: MPL-1.1
+License: MPL-1.1+
     The contents of this file are subject to the Mozilla Public License
     Version 1.1 (the "License"); you may not use this file except in
     compliance with the License. You may obtain a copy of the License at
