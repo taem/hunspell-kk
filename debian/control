@@ -17,4 +17,4 @@ Suggests: iceape-browser | iceweasel | icedove, openoffice.org (>= 1.0.3-3)
 Conflicts: openoffice.org (<= 1.0.3-2)
 Description: Kazakh dictionary for hunspell
  This dictionary contains Kazakh wordlist for the hunspell
- spellchecker currently supported by Mozilla and OpenOffice.
+ spellchecker currently supported by Mozilla and LibreOffice.
