@@ -3,6 +3,7 @@ Upstream-Name: Kazakh dictionary for hunspell
 Upstream-Contact: Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
 Source: http://extensions.services.openoffice.org/en/project/dict-kk
 
+Files: *
 Copyright: 2005, Alexey Lipchansky <could@gnu.kz>
            2009, Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
 	   2009, László Németh <nemeth@openoffice.org>
