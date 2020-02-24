@@ -1,3 +1,9 @@
+hunspell-kk (1.1-3) UNRELEASED; urgency=medium
+
+  * Use secure copyright file specification URI.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Mon, 24 Feb 2020 13:09:42 +0000
+
 hunspell-kk (1.1-2) unstable; urgency=low
 
   * debian/control:
