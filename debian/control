@@ -15,6 +15,7 @@ Depends: dictionaries-common (>= 1.12.11), ${misc:Depends}
 Provides: hunspell-dictionary, hunspell-dictionary-kk, myspell-dictionary, myspell-dictionary-kk
 Suggests: iceape-browser | iceweasel | icedove, openoffice.org (>= 1.0.3-3)
 Conflicts: openoffice.org (<= 1.0.3-2)
+Multi-Arch: foreign
 Description: Kazakh dictionary for hunspell
  This dictionary contains Kazakh wordlist for the hunspell
  spellchecker currently supported by Mozilla and LibreOffice.

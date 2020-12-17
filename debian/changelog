@@ -1,3 +1,10 @@
+hunspell-kk (1.1-3) UNRELEASED; urgency=low
+
+  * Apply multi-arch hints.
+    + hunspell-kk: Add Multi-Arch: foreign.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Mon, 14 Sep 2020 11:21:56 -0000
+
 hunspell-kk (1.1-2) unstable; urgency=low
 
   * debian/control:
