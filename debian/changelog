@@ -1,3 +1,12 @@
+hunspell-kk (1.1-3) UNRELEASED; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on debhelper.
+    + Build-Depends-Indep: Drop versioned constraint on dictionaries-common-dev.
+    + hunspell-kk: Drop versioned constraint on dictionaries-common in Depends.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Thu, 09 Sep 2021 19:28:10 -0000
+
 hunspell-kk (1.1-2) unstable; urgency=low
 
   * debian/control:
