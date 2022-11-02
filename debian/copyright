@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Kazakh dictionary for hunspell
 Upstream-Contact: Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
 Source: http://extensions.services.openoffice.org/en/project/dict-kk
@@ -6,8 +6,8 @@ Source: http://extensions.services.openoffice.org/en/project/dict-kk
 Files: *
 Copyright: 2005, Alexey Lipchansky <could@gnu.kz>
            2009, Akmaral Mussayeva <akmaral.mussayeva@gmail.com>
-	   2009, László Németh <nemeth@openoffice.org>
-	   2009, Rail Aliev <rail@openoffice.org>
+           2009, László Németh <nemeth@openoffice.org>
+           2009, Rail Aliev <rail@openoffice.org>
 License: GPL-2+ or LGPL-2.1+ or MPL-1.1+
 
 Files: debian/*
