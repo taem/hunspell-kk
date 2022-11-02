@@ -5,6 +5,7 @@ hunspell-kk (1.1-3) UNRELEASED; urgency=medium
   * Drop custom source compression.
   * Bump debhelper from deprecated 9 to 13.
   * Set debhelper-compat version in Build-Depends.
+  * Use secure URI in Vcs control headers: Vcs-Browser, Vcs-Git.
 
  -- Debian Janitor <janitor@jelmer.uk>  Wed, 02 Nov 2022 13:07:42 -0000
 
